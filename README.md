@@ -17,5 +17,5 @@ Create a .env file (remember to install with npm install dotenv), or replace the
 # Run the project
 1. Install dependencies with npm install.
 2. Start the application with npm start.
-3. http://localhost:3000/report/:groupID/:reportID
+3. change the values on groupID and reportID to fit your project on http://localhost:3000/report/:groupID/:reportID
 4. To run again, use node app.js.
