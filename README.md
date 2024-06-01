@@ -18,4 +18,5 @@ Create a .env file (remember to install with npm install dotenv), or replace the
 1. Install dependencies with npm install.
 2. Start the application with npm start.
 3. change the values on groupID and reportID to fit your project on http://localhost:3000/report/:groupID/:reportID
-4. To run again, use node app.js.
+4. Change the values in view/index.ejs in the filter section as well, or simply comment out that part of the code. Otherwise, the values will either appear blank or not show up at all.
+5. To run again, use node app.js.
