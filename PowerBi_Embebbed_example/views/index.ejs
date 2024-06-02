@@ -53,16 +53,15 @@
 
         const reportContainer = document.getElementById('reportContainer');
         const report = powerbi.embed(reportContainer, config);
-        const currentHost = window.location.hostname;
 
         const filter = {
             $schema: "http://powerbi.com/product/schema#basic",
             target: {
                 table: "TableName",
-                column: "Database_name"
+                column: "Colunm_name"
             },
             operator: "In",
-            values: [currentHost]
+            values: ["values that you want to target"]
         };
 
         report.on('loaded', function() {
